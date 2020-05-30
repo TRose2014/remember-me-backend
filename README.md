@@ -47,3 +47,14 @@ people
 Mongoose pluralizes collections. Mongodb had people, but Mongoose is looking for peoples. Had to set the collection name in the infoModel.js
 
 Created mongolab-curved-15649 as MONGODB_URI
+
+MONGODB_URI=mongodb://heroku_brk6g069:31n34u6fqcla3bl104ptp76c29@ds259325.mlab.com:59325/heroku_brk6g069
+
+Terminal:
+mongo ds259325.mlab.com:59325/heroku_brk6g069 -u heroku_brk6g069 -p 31n34u6fqcla3bl104ptp76c29
+
+To add data to the deployed Mongodb run `mongo ds259325.mlab.com:59325/heroku_brk6g069 -u heroku_brk6g069 -p 31n34u6fqcla3bl104ptp76c29 < infoJson.js`
+
+
+User I made:
+mongodb://testtest:testtest1@ds259325.mlab.com:59325/heroku_brk6g069
