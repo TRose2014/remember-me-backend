@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const app = express();
 const db = mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/rememberAPI');
 const infoRouter = express.Router();
@@ -18,7 +19,7 @@ infoRouter.route('/info')
     });
   });
 
-
+app.use(cors());
 app.use('/', infoRouter);
 app.get('/', (req, res) => {
   res.send('Welcome from remember me backend');
