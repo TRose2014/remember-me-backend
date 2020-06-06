@@ -58,3 +58,12 @@ To add data to the deployed Mongodb run `mongo ds259325.mlab.com:59325/heroku_br
 
 User I made:
 mongodb://testtest:testtest1@ds259325.mlab.com:59325/heroku_brk6g069
+
+Personal Bio: Born on XX-XX-XXXX, XXXXXXX grew up/lived in XXXXXX. XXXXXXX worked for/went to school at .XXXXXX liked to do this.
+
+My Encounter: On XX-XX-XXXX XXXXXXX was at XXXXX,XXXX
+
+Create assets directory and download and save images
+
+Resources used:
+https://www.blackpast.org
