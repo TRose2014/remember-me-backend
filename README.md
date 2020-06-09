@@ -34,6 +34,18 @@ Steps:
   - Everything else, either two or three cards...depending on how big cards are
 4. 
 
+  #### Website callled I am.. I am Corey Jones. I lived in..... I did this... I did that....I was .... yeard old
+
+  On XX-XX-XXXX I...was in the park, in the store, walking home. 
+  
+  I never came home.
+
+  Remember Me
+
+  *** change remember me on bottom of card to I am Corey Jones....can also delete Name:Corey Jones section
+
+  **** I was XX years old....
+
 ### Mongodb Commands
 To add data from infoJson.js to mongodb
 To import Book data into your mongoDB database. Make sure MongoDB is running then run `mongo rememberAPI < infoJson.js` from the command line.
@@ -55,6 +67,9 @@ mongo ds259325.mlab.com:59325/heroku_brk6g069 -u heroku_brk6g069 -p 31n34u6fqcla
 
 To add data to the deployed Mongodb run `mongo ds259325.mlab.com:59325/heroku_brk6g069 -u heroku_brk6g069 -p 31n34u6fqcla3bl104ptp76c29 < infoJson.js`
 
+
+To go to admin page:
+- Log into heroku and click mlab
 
 User I made:
 mongodb://testtest:testtest1@ds259325.mlab.com:59325/heroku_brk6g069

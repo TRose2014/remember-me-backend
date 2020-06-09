@@ -1,69 +1,81 @@
+/* eslint-disable no-undef */
 
 db.people.insert([
   {
-    name: 'Trayvon Martin',
+    name: 'I am Trayvon Martin',
     image_url: 'https://www.biography.com/.image/t_share/MTE1ODA0OTcyMDYwNjczNTQ5/trayvon-martin.jpg',
-    personal_bio: 'Born on Feb. 5th 1995, Trayvon Martin lived in Miami Gardens, FL. Trayvon went to Dr. Michael M. Krop High School during his Junior year in high school. Trayvon\'s childhood dream was to be a professional football player but he later wanted a career flying or repairing airplanes.',
+    personal_bio: 'I was born on Feb. 5th 1995. I lived in Miami Gardens, FL. I went to Dr. Michael M. Krop High School in my Junior year of high school. My childhood dream was to be a professional football player, but as I grew up I wanted a career flying or repairing airplanes.',
+    last_seen: 'I was walking home after visiting a convenience store. I never came home. I was 17 years old.',
     date_lost: 'We lost Trayvon on Feb. 26th, 2012'
   },
   {
-    name: 'Keith Lamont Scott',
+    name: 'I am Keith Lamont Scott',
     image_url: 'https://images.daznservices.com/di/library/sporting_news/24/39/brentley-vinson-092216-liberty-university-ftrjpg_1ubxzu4exqeoh148zkuk87og1h.jpg?t=1379832783&quality=100',
-    personal_bio: 'Born on Feb. 3rd 1973, Keith lived with family in Charlotte, North Carolina. Keith was a father to seven children.',
+    personal_bio: 'I was born on Feb. 3rd 1973. I lived with my family in Charlotte, North Carolina. I was a father to seven children.',
+    last_seen: 'I was sitting in my parked car at an apartment complex. I never came home. I was 43 years old. ',
     date_lost: 'We lost Keith on Sept. 20th, 2016'
   },
   {
-    name: 'Atatiana Koquice Jefferson',
+    name: 'I am Atatiana Koquice Jefferson',
     image_url: 'https://media2.s-nbcnews.com/j/newscms/2019_41/3050591/191013-atatiana-jefferson-cs-407p_41c96764104b0c67589ba287a597843d.fit-320w.jpg',
-    personal_bio: 'Born in 1990, Atatiana lived in Fort Worth, Texas with her mother and her nephew. Atatiana was a pre-medical graduate of Xavier University of Louisiana.',
+    personal_bio: 'I was born in 1990. I lived in Fort Worth, Texas with my mother and my nephew. I was a pre-medical graduate of Xavier University of Louisiana.',
+    last_seen: 'I was sitting in my home and my door was open. I never came home. I was 28 years old.',
     date_lost: 'We lost Atatiana on Oct. 12th, 2019'
   },
   {
-    name: 'Jonathan Ferrell',
+    name: 'I am Jonathan Ferrell',
     image_url: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/V2C7MLLBYAYIJEXYZAEDIU5SE4.png&w=691',
-    personal_bio: 'Born on Oct. 11th 1988, Jonathan lived in Charlotte, NC. Jonathan played college football player for the Florida A&M University Rattlers. ',
+    personal_bio: 'I was born on Oct. 11th 1988. I lived in Charlotte, NC. I played college football player for the Florida A&M University Rattlers. ',
+    last_seen: 'I crashed my car. I went to a nearby house and knocked on the door. I never came home. I was 24 years old.',
     date_lost: 'We lost Jonathan on Sept. 14th, 2013'
   },
   {
-    name: 'Jordan Edwards',
+    name: 'I am Jordan Edwards',
     image_url: 'https://cdn.vox-cdn.com/thumbor/bE7FQ3gulbF0wVyYO7S8qsMbJhs=/0x0:640x360/1200x800/filters:focal(269x129:371x231)/cdn.vox-cdn.com/uploads/chorus_image/image/54557109/Jordan_Edwards_2.0.jpg',
-    personal_bio: 'Born in 2001, Jordan lived in Balch Springs, Texas. Jordan was a freshman at Mesquite High School where he played football.',
+    personal_bio: 'I was born in 2001. I lived in Balch Springs, Texas. I was a freshman at Mesquite High School and played football.',
+    last_seen: 'I was a passenger in a car that was driving away from a party. I never came home. I was 15 years old.',
     date_lost: 'We lost Jordan on April 29th, 2017'
   },
   {
-    name: 'Stephon Clark',
+    name: 'I am Stephon Clark',
     image_url: 'https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/stephon-clark-1521605958.jpg?crop=1xw:1xh;center,top',
-    personal_bio: 'Born on August 10th 1995, Stephon lived in Sacramento, California with his grandmother. Stephon graduated from Sacramento High School in 2013, where he played football.',
+    personal_bio: 'I was born on August 10th 1995. I lived in Sacramento, California with my grandmother. I graduated from Sacramento High School in 2013, where I played football.',
+    last_seen: 'I was in my grandmother\'s backyard. I never came home. I was 22 years old.',
     date_lost: 'We lost Stephon on March 18th, 2018'
   },
   {
-    name: 'Amadou Diallo',
+    name: 'I am Amadou Diallo',
     image_url: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Amadou_Diallo.png/240px-Amadou_Diallo.png',
-    personal_bio: 'Born on September 2nd 1975 in Liberia, Amadou moved to New York City in Sept. 1996 to start a business with his cousin. ',
+    personal_bio: 'I was born on September 2nd 1975 in Liberia. I moved to New York City in Sept. 1996 to start a business with my cousin.',
+    last_seen: 'I was standing outside my building. I never came home. I was 23 years old.',
     date_lost: 'We lost Amadou on Feb. 4th, 1999'
   },
   {
-    name: 'Renisha McBride',
+    name: 'I am Renisha McBride',
     image_url: 'https://media4.s-nbcnews.com/j/newscms/2014_32/606636/140808-renisha-mcbride-mn-1500_9eeb756edd411b4f3d6107f069e2917b.nbcnews-fp-1200-630.jpg',
-    personal_bio: 'Born on April 11th 1994, Renisha lived in Michigan. Renisha was 19 years old.',
+    personal_bio: 'I was born on April 11th 1994. I lived in Michigan.',
+    last_seen: 'I crashed my car. I went to a nearby house and knocked on the door. I never came home. I was 19 years old.',
     date_lost: 'We lost Renisha on Nov. 2nd, 2013'
   },
   {
-    name: 'Tamir Rice',
+    name: 'I am Tamir Rice',
     image_url: 'https://upload.wikimedia.org/wikipedia/en/d/d3/Tamir_Rice_family_photo.jpg',
-    personal_bio: 'Born on June 25th 2002, Tamir lived in Cleveland, Ohio. Tamir enjoyed playing basketball and Ping-Pong',
+    personal_bio: 'I was born on June 25th 2002. I lived in Cleveland, Ohio. I enjoyed playing basketball and Ping-Pong',
+    last_seen: 'I was playing in the park. I never came home. I was 12 years old.',
     date_lost: 'We lost Tamir on Nov. 22nd 2014'
   },
   {
-    name: 'Sean Bell',
+    name: 'I am Sean Bell',
     image_url: 'https://www.dallasweekly.com/wp-content/uploads/images/2012-06-20/5cb51ee68d361478296222507cf72fef.jpg',
-    personal_bio: 'Born on May 23rd 1983, Sean was the nephew of college basketball coach Frank Haith. Sean played baseball as a pitcher for John Adams High School. Sean was studying to be an electrician.',
+    personal_bio: 'I was born on May 23rd 1983. I was the nephew of college basketball coach Frank Haith. I played baseball as a pitcher for John Adams High School. I was studying to be an electrician.',
+    last_seen: 'I was attending a bachelor party. I never came home. I was 23 years old',
     date_lost: 'We lost Sean on Nov. 25th, 2006'
   },
   {
-    name: 'Walter Scott',
+    name: 'I am Walter Scott',
     image_url: 'https://www.blackpast.org/wp-content/uploads/prodimages/files/Walter_Lamar_Scott.jpg',
-    personal_bio: 'Born on Feb. 9th, 1965, Walter lived in North Charleston, South Carolina. Walter served two years in the U.S. Coast Guard. After leaving the Coast Guard, Scott worked as a forklift operator and was the father to 4 children.',
+    personal_bio: 'I was born on Feb. 9th, 1965. I lived in North Charleston, South Carolina. I served two years in the U.S. Coast Guard. After leaving the Coast Guard, I worked as a forklift operator and was the father to 4 children.',
+    last_seen: 'I was pulled over for a non-functioning brake light. I never came home. I was 50 years old.',
     date_lost: 'We lost Walter on April 4th, 2015'
   },
   {
@@ -99,7 +111,7 @@ db.people.insert([
   {
     name: 'John Crawford III',
     image_url: 'https://www.wyso.org/sites/wyso/files/styles/medium/public/201604/John-Crawford-III_0.jpg',
-    personal_bio: 'Born on July 29th, 1992, John lived in Cincinnati, Ohio with his mother. Jogn was 22-years old.',
+    personal_bio: 'Born on July 29th, 1992, John lived in Cincinnati, Ohio with his mother. John was 22-years old.',
     date_lost: 'We lost John on August 5th, 2014'
   },
   {
