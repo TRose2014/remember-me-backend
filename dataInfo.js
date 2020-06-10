@@ -19,7 +19,7 @@ db.people.insert([
     name: 'I am Atatiana Koquice Jefferson.',
     image_url: 'https://media2.s-nbcnews.com/j/newscms/2019_41/3050591/191013-atatiana-jefferson-cs-407p_41c96764104b0c67589ba287a597843d.fit-320w.jpg',
     personal_bio: 'I was born in 1990. I lived in Fort Worth, Texas with my mother and my nephew. I was a pre-medical graduate of Xavier University of Louisiana.',
-    last_seen: 'I was sitting in my home and my door was open. I never came home. I was 28 years old.',
+    last_seen: 'I was sitting in my home and my door was open. I never got the chance to say goodbye to my friends and family. I was 28 years old.',
     date_lost: 'We lost Atatiana on Oct. 12th, 2019.'
   },
   {
