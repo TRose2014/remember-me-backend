@@ -65,7 +65,7 @@ MONGODB_URI=mongodb://heroku_brk6g069:31n34u6fqcla3bl104ptp76c29@ds259325.mlab.c
 Terminal:
 mongo ds259325.mlab.com:59325/heroku_brk6g069 -u heroku_brk6g069 -p 31n34u6fqcla3bl104ptp76c29
 
-To add data to the deployed Mongodb run `mongo ds259325.mlab.com:59325/heroku_brk6g069 -u heroku_brk6g069 -p 31n34u6fqcla3bl104ptp76c29 < infoJson.js`
+To add data to the deployed Mongodb run `mongo ds259325.mlab.com:59325/heroku_brk6g069 -u heroku_brk6g069 -p 31n34u6fqcla3bl104ptp76c29 < dataInfo.js`
 
 
 To go to admin page:
