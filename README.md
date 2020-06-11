@@ -1,8 +1,8 @@
 # Remember-Me - backend
 
-## Author: Tia Rose
+## Tia Rose
 
-### Description: This app is to remember those we lost to police brutality. Although this is only a handful of names, I plan on adding more and eventually would love to create individual web pages that tell their story.
+### This app is to remember those we lost to police brutality. Although this is only a handful of names, I plan on adding more and eventually would love to create individual web pages that tell their story.
 
 ✊🏿✊🏾✊🏽✊🏼✊🏻
 
@@ -26,9 +26,7 @@ Before continuing, please ensure you have [npm](https://www.npmjs.com/get-npm) i
 * Open `http://localhost:${PORT}` to view it in the browser.
 
 #### Mongo Schema
-Located in 
-    - models
-      └──infoModel.js
+Located in `/models/infoModel.js`
 
 #### Endpoints:
 * Endpoint: `/`
