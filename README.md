@@ -16,7 +16,7 @@ Before continuing, please ensure you have [npm](https://www.npmjs.com/get-npm) i
 
 #### `.env` requirements
 * `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `DB_URI` - URL to the running mongo instance/db
 
 #### Install dependencies
 * Run `npm i` || `npm install` in terminal
