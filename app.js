@@ -1,9 +1,7 @@
 require('dotenv').config();
 const express = require('express');
-const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
-const db = mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/rememberAPI');
 const infoRouter = express.Router();
 const port = process.env.PORT || 3000;
 const Info = require('./models/infoModel');
